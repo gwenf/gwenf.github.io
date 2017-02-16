@@ -94,6 +94,10 @@ section .card {
 .card img {
 	width: 300px;
 }
+.project-tags {
+	display: flex;
+	justify-content: center;
+}
 .project-tags span {
 	margin: 5px 4px;
 	padding: 2px 5px;
