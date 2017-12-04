@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+	<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+
 	<title>Gwen Faraday</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="styles.css">
@@ -18,10 +25,9 @@
 
 <!-- intro -->
 <header>
-	<img src="http://i1378.photobucket.com/albums/ah93/fuze365/gwen_zpss7swuet1.jpg">
-	<p>My name is</p>
+	<img src="images/gwen-profile.png">
 	<h1>Gwen Faraday</h1>
-	<p>and I love to code!</p>
+	<p>Software Developer</p>
 	<!-- <p class="header-p">Check out some of my work and get in touch.</p> -->
 </header>
 
@@ -29,25 +35,87 @@
 <section>
 	<h2>Projects</h2>
 	<div class="cards">
-		<div class="card">
+		<a class="card" href="http://playame.co">
 			<p class="center-text bold-text">amEco - Recycling Gamified</p>
-			<img src="http://i1378.photobucket.com/albums/ah93/fuze365/amEco_zps2uogqzm3.png">
+			<img src="images/amEco-home.png">
 			<p class="project-tags"><span>JavaScript</span><span>React</span><span>Redux</span><span>AWS</span></p>
-		</div>
+		</a>
+		<a class="card" href="http://agrihack.herokuapp.com/home">
+			<p class="center-text bold-text">IoT Hack - Garden Cube</p>
+			<img src="images/garden-cube.png">
+			<p class="project-tags"><span>NodeJS</span><span>MQX</span><span>AWS</span><span>RasPi</span></p>
+		</a>
+		<a class="card" href="https://gitlab.com/gwenf/ParkExplorer">
+			<p class="center-text bold-text">Indy Civic Hack - ParkExplorer</p>
+			<img src="images/react-native-pic.png">
+			<p class="project-tags"><span>React Native</span><span>GIS</span></p>
+		</a>
 	</div>
 </section>
 
 <!-- articles -->
 <section class="articles-section">
 	<h2>Articles</h2>
+	<p><a href="https://medium.freecodecamp.org/speaking-at-tech-conferences-my-experiences-and-advice-470752c4a2d7">What I learned from giving 16 tech talks.</a></p>
+	<p><a href="https://medium.freecodecamp.org/choosing-a-developer-job-some-advice-a64c60b795a4">Choosing a Developer Job — Some Advice</a></p>
+	<p><a href="https://medium.com/@gwen_faraday/hack-a-thons-101-why-you-should-consider-going-to-one-8b0c21923a98">Hackathons 101 - Why you should consider attending</a></p>
+	<p><a href="https://medium.com/@gwen_faraday/converting-a-react-app-to-react-native-d7df17968fc6#.imzqknyaw">Going from React to React Native</a></p>
 	<p><a href="https://medium.freecodecamp.com/networking-at-meet-ups-getting-hired-f0f7c4f4681a#.n859p8nrc">How Going to Coding Events has Helped Me</a></p>
 	<p><a href="https://medium.freecodecamp.com/how-i-landed-my-first-job-as-a-web-developer-f991fe728b95#.bxgf8qcxj">How I Landed my First Development Job</a></p>
 </section>
 
 <!-- talks -->
+<!--TODO: add in quotes from what people have said about my talks-->
 <section class="talks-section">
 	<h2>Talks</h2>
+	<h3>Conferences:</h3>
+	<p><span class="bold-text">NDC London:</span> <a href="https://ndc-london.com/speaker/gwendolyn-faraday/">React Native</a> - <em>Coming Soon...</em></p>
+	<p><span class="bold-text">Prarie Code:</span> <a href="https://prairiecode.amegala.com/speakers#speaker_307">Programming Paradigms and React Native</a></p>
+	<p><span class="bold-text">Detroit Code:</span> <a href="https://detroitcode.amegala.com/Speakers#speaker_228">Programming Paradigms and React Native</a></p>
+	<p><span class="bold-text">Nebraska Code:</span> <a href="https://nebraskacode.amegala.com/Speakers#speaker_140">Programming Paradigms and React Native</a></p>
+	<p><span class="bold-text">Indy.Code():</span> <a href="https://indycode.amegala.com/Speakers#speaker_49">Programming Paradigms and React Native</a></p>
+	<h3>Local:</h3>
+	<p><span class="bold-text">Summary:</span> <a href="https://www.meetup.com/Free-Code-Camp-Indy/events/245113676/">Intro to React Workshop</a> - at freeCodeCampIndy</p>
+	<p><span class="bold-text">Summary:</span> <a href="https://www.meetup.com/Free-Code-Camp-Indy/events/245216599/">Intro to JavaScript Workshop</a> - at freeCodeCampIndy</p>
 	<p><span class="bold-text">Video:</span> <a href="https://www.youtube.com/watch?v=sQEYuf5KyJ4">Programming Paradigms in JavaScript</a> - at IndyJS</p>
+	<p><span class="bold-text">Summary:</span> <a href="https://www.meetup.com/indysa/events/233727247/">Intro to React Native</a> - at Indy Sofware Artisans</p>
+	<p><span class="bold-text">Summary:</span> <a href="https://www.meetup.com/Node-indy/events/232917241/">AWS Lambda</a> - at Node Indy</p>
+	<p><span class="bold-text">Summary:</span> <a href="https://www.meetup.com/Free-Code-Camp-Indy/events/232615779/">How to Create a Developer Blog</a> - at Free Code Camp Indy</p>
+</section>
+
+<!--volunteer and community-->
+<section class="volunteer-section">
+	<h2>Volunteer</h2>
+	<p>Organizer of the Indy chapter of 
+		<a href="https://www.freecodecamp.com">
+			freeCodeCamp
+		</a> - 
+		<a href="https://www.meetup.com/Free-Code-Camp-Indy/">
+			Meetup
+		</a>, 
+		<a href="https://www.facebook.com/groups/free.code.camp.indianapolis.in">
+			Facebook
+		</a>
+	</p>
+</section>
+
+<!--open source contributions-->
+<section class="opensource-section">
+	<h2>Open Source</h2>
+	<p>
+		<a href="https://www.fcc-alumni.com/">freeCodeCamp Alumni</a> Web App - 
+		<a href="https://github.com/FCC-Alumni/alumni-network">GitHub</a>
+	</p>
+	<p>
+		<a href="https://github.com/freeCodeCamp/guides">freeCodeCamp Guides</a> - Easy-to-follow guides on various topics
+	</p>
+</section>
+
+<!--youtube videos-->
+<section class="youtube-section">
+	<h2>Youtube Videos</h2>
+	<p>coming soon...</p>
+	<!--filter function-->
 </section>
 
 <footer>
