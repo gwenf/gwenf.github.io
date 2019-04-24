@@ -26,9 +26,15 @@ nav {
 	font-size: 24px;
 }
 @media (max-width: 620px) {
+	.nav-logo {
+		display: none;
+	}
 	nav {
 		flex-direction: column;
 		align-items: center;
+	}
+	.top-nav-links {
+		margin: 20px 0;
 	}
 }
 nav div {
@@ -37,6 +43,15 @@ nav div {
 }
 nav a {
 	padding: 10px;
+	border: 1px solid #000;
+	border-radius: 3px;
+}
+.top-nav-links a {
+	margin-left: 5px;
+}
+.top-nav-links a:hover {
+	background: #eee;
+	text-decoration: none;
 }
 .nav-logo {
 	border: 1px solid #000;
@@ -117,7 +132,7 @@ a.card:hover {
 .bold-text {
 	font-weight: 700;
 }
-.talks-section p, .articles-section p, .volunteer-section p, .opensource-section p {
+.talks-section p, .articles-section p, .volunteer-section p, .opensource-section p, .youtube-section p, .main-section {
 	font-size: 1.5rem;
 }
 .talks-section h2, .articles-section h2 {
@@ -146,4 +161,32 @@ footer a:hover {
 /*contact page*/
 .contact-information {
 	font-size: 1.5rem;
+}
+
+.section-menu ul {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	list-style: none;
+}
+
+.section-menu li {
+	padding: 6px 14px;
+	margin: 4px;
+	background: #ef5350;
+	border-radius: 3px;
+	font-size: 1.2rem;
+}
+
+.section-menu li a {
+	color: #fff;
+}
+
+.section-menu li a:hover {
+	text-decoration: none;
+}
+
+.section-menu li:hover {
+	background: #ec3c39;
 }
